@@ -1,0 +1,102 @@
+{
+  "company": "Company B",
+  "company_id": "CMPB",
+  "year": 2024,
+  "news_sources": [
+    {
+      "source_name": "BBC",
+      "source_type": "international",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "bbc_B_991",
+          "title": "Factory audit reveals safety issues at Company B supplier",
+          "published_date": "2024-04-19",
+          "content_raw": "An independent audit revealed ventilation and fire safety issues at two factories supplying Company B...",
+          "content_cleaned": "Independent audit found safety compliance gaps at Company B suppliers.",
+          "analysis": {
+            "sentiment": -0.75,
+            "esg_category": "Social",
+            "esg_topics": ["Factory safety", "Labor rights"],
+            "stance": "critical",
+            "risk_signals": [
+              {"type": "supply_chain_violation", "severity": "high"},
+              {"type": "reputational_risk", "severity": "medium"}
+            ]
+          },
+          "link_to_report": {
+            "claim_conflict": true,
+            "related_claim": "98% supply chain compliance",
+            "match_confidence": 0.91
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "Helsingin Sanomat",
+      "source_type": "national",
+      "language": "fi",
+      "articles": [
+        {
+          "article_id": "hs_B_551",
+          "title": "Muotiyritys Company B vähentää tekstiilijätettä",
+          "published_date": "2024-06-10",
+          "content_raw": "Yritys B ilmoitti 15 prosentin vähennyksestä tekstiilijätteessä...",
+          "content_cleaned": "Company B reports a 15% reduction in textile waste.",
+          "analysis": {
+            "sentiment": 0.68,
+            "esg_category": "Environment",
+            "esg_topics": ["Textile waste", "Circular economy"],
+            "stance": "positive"
+          },
+          "link_to_report": {
+            "supports_claim": true,
+            "related_claim": "Textile waste reduced by 15%",
+            "match_confidence": 0.95
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "Fashion Business Review",
+      "source_type": "industry",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "fbr_B_774",
+          "title": "Company B launches recycled cotton line",
+          "published_date": "2024-07-15",
+          "content_raw": "Company B has launched a new recycled cotton apparel line...",
+          "content_cleaned": "New apparel line using recycled cotton materials.",
+          "analysis": {
+            "sentiment": 0.72,
+            "esg_category": "Environment",
+            "esg_topics": ["Recycled materials", "Sustainable fashion"],
+            "stance": "positive"
+          }
+        }
+      ]
+    }
+  ],
+
+  "aggregated_analysis": {
+    "sentiment_overall": 0.22,
+    "top_esg_topics": [
+      {"topic": "Labor rights", "mentions": 23},
+      {"topic": "Textile waste", "mentions": 14},
+      {"topic": "Recycled materials", "mentions": 9}
+    ],
+    "risk_summary": {
+      "social": 0.74,
+      "environmental": 0.33,
+      "governance": 0.47
+    }
+  },
+
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-13"
+  }
+}

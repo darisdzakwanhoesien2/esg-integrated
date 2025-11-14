@@ -1,0 +1,18 @@
+{
+  "company_id": "CMPA",
+  "name": "Company A",
+  "sector": "Energy",
+  "industry": "Renewable Power Generation",
+  "headquarters": "Helsinki, Finland",
+  "country": "Finland",
+  "founded": 1999,
+  "identifiers": {
+    "isin": "FI0000011111",
+    "ticker": "CMPA",
+    "website": "https://companyA-energy.com"
+  },
+  "metadata": {
+    "created_at": "2025-11-14",
+    "schema_version": "1.0"
+  }
+}

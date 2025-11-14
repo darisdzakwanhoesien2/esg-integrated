@@ -1,0 +1,60 @@
+{
+  "company": "Company B",
+  "company_id": "CMPB",
+  "year": 2023,
+  "report_id": "CMPB_2023",
+  "source_file": "companyB_sustainability_2023.pdf",
+
+  "overall_summary": "Company B focused on reducing textile waste through circular fashion initiatives. Social audits found compliance gaps in two factories.",
+
+  "esg_topics": {
+    "environment": ["Textile waste reduction", "Water usage in dyeing", "Chemical use"],
+    "social": ["Worker rights", "Factory audits", "Living wage"],
+    "governance": ["Supply chain transparency"]
+  },
+
+  "metrics": {
+    "textile_waste_tonnes": 4500,
+    "water_usage_litres": 150000000,
+    "audited_factories": 52,
+    "non_compliant_factories": 2
+  },
+
+  "claims": [
+    {"claim_id": "CMPB_C1", "text": "We achieved 98% compliance across our supply chain.", "section": "Social", "confidence": 0.7},
+    {"claim_id": "CMPB_C2", "text": "Textile waste reduced by 15% this year.", "section": "Environment", "confidence": 0.92}
+  ],
+
+  "framework_alignment": {
+    "GRI": {
+      "306-2": {"covered": true, "extracted_metric": {"value": 4500, "unit": "tonnes"}, "confidence": 0.93},
+      "414-1": {"covered": true, "extracted_metric": {"value": 52, "unit": "facilities"}, "confidence": 0.85}
+    },
+    "UNSDG": {
+      "SDG12": {
+        "12.5": {
+          "covered": true,
+          "alignment_type": "direct",
+          "confidence": 0.89
+        }
+      }
+    },
+    "SASB": {
+      "industry": "Apparel, Accessories & Footwear",
+      "metrics": {
+        "CG-AA-430a.1": {
+          "covered": true,
+          "extracted_values": {"value": 52, "unit": "factories"}
+        }
+      }
+    }
+  },
+
+  "sentiment_summary": {
+    "environment": 0.18,
+    "social": -0.22,
+    "governance": 0.10
+  },
+
+  "metadata": {"processed_at": "2025-11-14"}
+}

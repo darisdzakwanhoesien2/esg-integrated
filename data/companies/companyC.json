@@ -1,0 +1,18 @@
+{
+  "company_id": "CMPC",
+  "name": "Company C",
+  "sector": "Electronics",
+  "industry": "Consumer Electronics Manufacturing",
+  "headquarters": "Osaka, Japan",
+  "country": "Japan",
+  "founded": 1968,
+  "identifiers": {
+    "isin": "JP0000777777",
+    "ticker": "CMPC",
+    "website": "https://companyC-electronics.jp"
+  },
+  "metadata": {
+    "created_at": "2025-11-14",
+    "schema_version": "1.0"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "company": "Company A",
+  "company_id": "CMPA",
+  "year": 2024,
+  "news_sources": [
+    {
+      "source_name": "Reuters",
+      "source_type": "international",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "reuters_A_991",
+          "title": "Regulator questions Company A's emissions reporting",
+          "published_date": "2024-03-20",
+          "content_raw": "Finnish environmental authorities opened an inquiry to validate Company A's recent emission reduction claims...",
+          "content_cleaned": "Environmental authority launches inquiry into Company A's reported Scope 1 reductions.",
+          "url_hash": "fa12ac88c11aa",
+          "analysis": {
+            "sentiment": -0.62,
+            "stance": "investigative",
+            "summary": "Authorities question the validity of emission reduction data.",
+            "esg_category": "Environment",
+            "esg_topics": ["Emissions", "Regulatory compliance"],
+            "risk_signals": [
+              {"type": "regulatory_investigation", "severity": "high"}
+            ]
+          },
+          "link_to_report": {
+            "claim_conflict": true,
+            "related_claim": "Scope 1 emissions reduced by 12%",
+            "match_confidence": 0.89
+          }
+        },
+        {
+          "article_id": "reuters_A_997",
+          "title": "Company A expands solar fields in northern Finland",
+          "published_date": "2024-06-11",
+          "content_raw": "Company A completed its new solar project covering 200 hectares...",
+          "content_cleaned": "New utility-scale solar expansion completed in northern Finland.",
+          "analysis": {
+            "sentiment": 0.71,
+            "stance": "positive",
+            "esg_category": "Environment",
+            "esg_topics": ["Solar expansion", "Renewable energy"],
+            "risk_signals": []
+          },
+          "link_to_report": {
+            "supports_claim": true,
+            "related_claim": "Renewable capacity expansion",
+            "match_confidence": 0.92
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "YLE",
+      "source_type": "national",
+      "language": "fi",
+      "articles": [
+        {
+          "article_id": "yle_A_211",
+          "title": "Yritys A:n vesikulutus kasvoi vuoden aikana",
+          "published_date": "2024-02-15",
+          "content_raw": "Yritys A:n jäähdytysjärjestelmä nosti vedenkulutusta myös talvikuukausina...",
+          "content_cleaned": "Company A's cooling system increased water usage.",
+          "analysis": {
+            "sentiment": -0.33,
+            "esg_category": "Environment",
+            "esg_topics": ["Water usage"],
+            "risk_signals": [{"type": "resource_intensity_increase", "severity": "medium"}]
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "Energy Monitor",
+      "source_type": "industry",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "em_A_889",
+          "title": "Finland’s energy transition accelerates with Company A investments",
+          "published_date": "2024-10-04",
+          "content_raw": "Company A leads Finland’s renewable additions in 2024...",
+          "content_cleaned": "Industry report highlights Company A's leadership in renewable energy expansion.",
+          "analysis": {
+            "sentiment": 0.84,
+            "esg_category": "Environment",
+            "esg_topics": ["Energy transition", "Renewable energy"],
+            "stance": "commendatory"
+          }
+        }
+      ]
+    }
+  ],
+
+  "aggregated_analysis": {
+    "sentiment_overall": 0.14,
+    "top_esg_topics": [
+      {"topic": "Emissions", "mentions": 15},
+      {"topic": "Renewable energy", "mentions": 12},
+      {"topic": "Water usage", "mentions": 7}
+    ],
+    "platform_risk_summary": {
+      "regulatory": 0.78,
+      "environmental": 0.62,
+      "reputation": 0.21
+    }
+  },
+
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-13"
+  }
+}

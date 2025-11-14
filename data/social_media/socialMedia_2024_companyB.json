@@ -1,0 +1,104 @@
+{
+  "company": "Company B",
+  "company_id": "CMPB",
+  "year": 2024,
+  "platforms": [
+    {
+      "platform": "Twitter",
+      "posts": [
+        {
+          "post_id": "tw_B_19002",
+          "author": {
+            "username": "@supplychainethics",
+            "verified": false,
+            "followers": 40300
+          },
+          "timestamp": "2024-02-13T13:22:00Z",
+          "content_raw": "Leak: Two of Company B’s supplier factories failed audits in Vietnam. Transparency is still missing.",
+          "engagement": {
+            "likes": 620,
+            "retweets": 220,
+            "comments": 58
+          },
+          "analysis": {
+            "sentiment": -0.83,
+            "toxicity": 0.18,
+            "esg_category": "Social",
+            "esg_topics": ["Factory audits", "Labor rights"],
+            "stance": "negative",
+            "risk_signals": [{"type": "supply_chain_non_compliance", "severity": "high"}]
+          },
+          "comments": [
+            {
+              "comment_id": "tw_B_com_0021",
+              "author": "@ethicalasia",
+              "timestamp": "2024-02-13T14:10:00Z",
+              "content_raw": "This is more common than people think. Audits are rarely public.",
+              "analysis": {
+                "sentiment": -0.55,
+                "esg_category": "Governance",
+                "esg_topic": "Transparency"
+              }
+            }
+          ]
+        },
+        {
+          "post_id": "tw_B_19033",
+          "author": {
+            "username": "@circularfashionEU",
+            "verified": true,
+            "followers": 89000
+          },
+          "timestamp": "2024-05-09T09:00:00Z",
+          "content_raw": "Company B reduced textile waste by 15% via recycling initiatives. A solid step toward circularity.",
+          "analysis": {
+            "sentiment": 0.71,
+            "esg_category": "Environment",
+            "esg_topics": ["Textile waste", "Circular fashion"],
+            "stance": "positive"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "Instagram",
+      "posts": [
+        {
+          "post_id": "ig_B_09841",
+          "author": {
+            "username": "ecofashionmag",
+            "followers": 301000
+          },
+          "timestamp": "2024-09-18T18:20:00Z",
+          "content_raw": "Behind the scenes of Company B's new eco-factory. Looks promising!",
+          "analysis": {
+            "sentiment": 0.81,
+            "esg_category": "Environment",
+            "esg_topics": ["Eco-factory", "Sustainable design"]
+          }
+        }
+      ]
+    }
+  ],
+  "aggregated_analysis": {
+    "sentiment_overall": -0.12,
+    "platform_sentiments": {
+      "Twitter": -0.22,
+      "Instagram": 0.81
+    },
+    "top_esg_topics": [
+      {"topic": "Factory audits", "mentions": 22},
+      {"topic": "Labor rights", "mentions": 18},
+      {"topic": "Textile waste", "mentions": 13}
+    ],
+    "risk_summary": {
+      "environmental": 0.22,
+      "social": 0.66,
+      "governance": 0.44
+    }
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-12"
+  }
+}

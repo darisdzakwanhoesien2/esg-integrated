@@ -1,0 +1,90 @@
+{
+  "company": "Company C",
+  "company_id": "CMPC",
+  "year": 2024,
+  "platforms": [
+    {
+      "platform": "Reddit",
+      "posts": [
+        {
+          "post_id": "rd_C_8811",
+          "author": {
+            "username": "u/techcleanup",
+            "karma": 12400
+          },
+          "timestamp": "2024-04-11T17:40:00Z",
+          "content_raw": "Anyone working at Company C’s Osaka plant? Injury rates seem to have gone up again.",
+          "analysis": {
+            "sentiment": -0.66,
+            "esg_category": "Social",
+            "esg_topics": ["Worker safety", "Injury rates"],
+            "risk_signals": [{"type": "occupational_hazard_rising", "severity": "medium"}]
+          }
+        }
+      ]
+    },
+    {
+      "platform": "Twitter",
+      "posts": [
+        {
+          "post_id": "tw_C_11823",
+          "author": {
+            "username": "@electronicsgreen",
+            "followers": 52000
+          },
+          "timestamp": "2024-08-19T13:10:00Z",
+          "content_raw": "Company C delivered 3,200 tonnes of e-waste recycling this year. Impressive progress.",
+          "analysis": {
+            "sentiment": 0.79,
+            "esg_category": "Environment",
+            "esg_topics": ["E-waste recycling"],
+            "stance": "positive"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "LinkedIn",
+      "posts": [
+        {
+          "post_id": "li_C_5541",
+          "author": {
+            "name": "Asian Electronics Regulatory Forum",
+            "type": "organization",
+            "followers": 46000
+          },
+          "timestamp": "2024-06-25T07:40:00Z",
+          "content_raw": "Company C hosted a workshop on ethical sourcing of rare earth minerals.",
+          "analysis": {
+            "sentiment": 0.62,
+            "esg_category": "Governance",
+            "esg_topics": ["Ethical sourcing", "Responsibility"],
+            "stance": "positive-neutral"
+          }
+        }
+      ]
+    }
+  ],
+  "aggregated_analysis": {
+    "sentiment_overall": 0.21,
+    "platform_sentiments": {
+      "Reddit": -0.66,
+      "Twitter": 0.79,
+      "LinkedIn": 0.62
+    },
+    "top_esg_topics": [
+      {"topic": "Worker safety", "mentions": 12},
+      {"topic": "E-waste recycling", "mentions": 9},
+      {"topic": "Ethical sourcing", "mentions": 7}
+    ],
+    "risk_summary": {
+      "environmental": 0.29,
+      "social": 0.52,
+      "governance": 0.33
+    }
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-12"
+  }
+}

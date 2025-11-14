@@ -1,0 +1,54 @@
+{
+  "company": "Company C",
+  "company_id": "CMPC",
+  "year": 2023,
+  "report_id": "CMPC_2023",
+  "source_file": "companyC_sustainability_2023.pdf",
+
+  "overall_summary": "Company C expanded its recycling program and reduced hazardous waste. However, worker injuries increased in one facility.",
+
+  "esg_topics": {
+    "environment": ["Electronic waste", "Hazardous chemicals", "Energy efficiency"],
+    "social": ["Worker safety incidents", "Training hours"],
+    "governance": ["Supplier audits", "Anti-bribery"]
+  },
+
+  "metrics": {
+    "e_waste_recycled_tonnes": 3200,
+    "hazardous_waste_kg": 82000,
+    "injury_rate": 4.2,
+    "training_hours": 150000
+  },
+
+  "claims": [
+    {"claim_id": "CMPC_C1", "text": "We reduced hazardous waste by 20%.", "section": "Environment", "confidence": 0.91}
+  ],
+
+  "framework_alignment": {
+    "GRI": {
+      "306-4": {"covered": true, "extracted_metric": {"value": 82000, "unit": "kg"}, "confidence": 0.88}
+    },
+    "UNSDG": {
+      "SDG3": {
+        "3.9": {"covered": true, "confidence": 0.84}
+      }
+    },
+    "SASB": {
+      "industry": "Electronic Manufacturing Services",
+      "metrics": {
+        "TC-ES-140a.1": {
+          "covered": true,
+          "extracted_values": {"value": 3200, "unit": "tonnes"}
+        }
+      }
+    }
+  },
+
+  "sentiment_summary": {
+    "environment": 0.40,
+    "social": -0.31,
+    "governance": 0.19
+  },
+
+  "metadata": {"processed_at": "2025-11-14"}
+}

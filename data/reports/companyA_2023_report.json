@@ -1,0 +1,102 @@
+{
+  "company": "Company A",
+  "company_id": "CMPA",
+  "year": 2023,
+  "report_id": "CMPA_2023",
+  "source_file": "companyA_sustainability_2023.pdf",
+
+  "overall_summary": "Company A continued expanding its renewable energy capacity with significant investments in wind and solar. Scope 1 emissions decreased by 12% while water usage increased slightly due to cooling demands.",
+
+  "esg_topics": {
+    "environment": ["CO2 emissions", "Renewable expansion", "Water usage"],
+    "social": ["Worker safety", "Community investments"],
+    "governance": ["Anti-corruption training", "Board diversity"]
+  },
+
+  "metrics": {
+    "co2_scope1_tonnes": 120000,
+    "renewable_energy_percentage": 65,
+    "water_usage_m3": 82000,
+    "recordable_incidents": 3
+  },
+
+  "claims": [
+    {
+      "claim_id": "CMPA_C1",
+      "text": "We reduced Scope 1 emissions by 12% compared to last year.",
+      "section": "Environment",
+      "confidence": 0.95
+    },
+    {
+      "claim_id": "CMPA_C2",
+      "text": "We aim for carbon neutrality by 2030.",
+      "section": "Environment",
+      "confidence": 0.88
+    }
+  ],
+
+  "framework_alignment": {
+    "GRI": {
+      "305-1": {
+        "covered": true,
+        "extracted_metric": {"value": 120000, "unit": "tonnes CO2e"},
+        "confidence": 0.91
+      },
+      "303-3": {
+        "covered": true,
+        "extracted_metric": {"value": 82000, "unit": "m3"},
+        "confidence": 0.87
+      }
+    },
+
+    "UNSDG": {
+      "SDG7": {
+        "7.2": {
+          "covered": true,
+          "alignment_type": "direct",
+          "evidence": ["pg 21: renewable expansion"],
+          "confidence": 0.92
+        }
+      },
+      "SDG13": {
+        "13.2": {
+          "covered": true,
+          "alignment_type": "direct",
+          "confidence": 0.89
+        }
+      }
+    },
+
+    "SASB": {
+      "industry": "Electric Utilities & Power Generators",
+      "metrics": {
+        "EM-EP-110a.1": {
+          "covered": true,
+          "extracted_values": {"value": 120000, "unit": "tonnes CO2e"},
+          "confidence": 0.9
+        }
+      }
+    },
+
+    "LOCAL_COMPLIANCE": {
+      "FIN-ESG": {
+        "FIN-ENV-01": {
+          "reported": true,
+          "compliance_status": "full",
+          "evidence": ["Appendix B: emissions by facility"]
+        }
+      }
+    }
+  },
+
+  "sentiment_summary": {
+    "environment": 0.72,
+    "social": 0.55,
+    "governance": 0.41
+  },
+
+  "metadata": {
+    "processed_at": "2025-11-14",
+    "schema_version": "2.0"
+  }
+}

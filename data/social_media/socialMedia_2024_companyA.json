@@ -1,0 +1,151 @@
+{
+  "company": "Company A",
+  "company_id": "CMPA",
+  "year": 2024,
+  "platforms": [
+    {
+      "platform": "Twitter",
+      "source_metadata": {
+        "collector": "system",
+        "api_version": "v2",
+        "collection_date": "2025-01-12"
+      },
+      "posts": [
+        {
+          "post_id": "tw_A_88712",
+          "author": {
+            "username": "@energy_insights",
+            "verified": true,
+            "followers": 204300
+          },
+          "timestamp": "2024-03-22T09:41:00Z",
+          "content_raw": "Company A says their Scope 1 emissions dropped, but satellite data shows otherwise.",
+          "engagement": {
+            "likes": 211,
+            "retweets": 54,
+            "comments": 32
+          },
+          "comments": [
+            {
+              "comment_id": "tw_com_5541",
+              "author": "@climatewatchEU",
+              "timestamp": "2024-03-22T10:12:00Z",
+              "content_raw": "Yup, and their water usage increased too. Needs more transparency.",
+              "analysis": {
+                "sentiment": -0.82,
+                "toxicity": 0.12,
+                "esg_category": "Environment",
+                "esg_topic": "Water management"
+              }
+            }
+          ],
+          "analysis": {
+            "language": "en",
+            "sentiment": -0.74,
+            "emotion": "concern",
+            "toxicity": 0.09,
+            "topic_model": "emissions_discrepancy",
+            "esg_category": "Environment",
+            "esg_topics": ["Emissions", "GHG discrepancy"],
+            "stance": "critical",
+            "risk_signals": [
+              {"type": "emission_data_dispute", "severity": "high"}
+            ]
+          },
+          "link_to_report": {
+            "section": "Environment",
+            "related_claim": "Scope 1 emissions reduced by 12%",
+            "match_confidence": 0.91
+          }
+        },
+        {
+          "post_id": "tw_A_88239",
+          "author": {
+            "username": "@renewablestoday",
+            "verified": false,
+            "followers": 30210
+          },
+          "timestamp": "2024-07-15T11:05:00Z",
+          "content_raw": "Positive move: Company A expanded solar farms in Finland by 30%.",
+          "engagement": {
+            "likes": 520,
+            "retweets": 120,
+            "comments": 11
+          },
+          "analysis": {
+            "language": "en",
+            "sentiment": 0.88,
+            "emotion": "joy",
+            "topic_model": "solar_expansion",
+            "esg_category": "Environment",
+            "esg_topics": ["Renewable energy", "Solar expansion"],
+            "stance": "supportive"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "LinkedIn",
+      "posts": [
+        {
+          "post_id": "li_A_3301",
+          "author": {
+            "name": "Nordic Sustainability Council",
+            "followers": 120000,
+            "type": "organization"
+          },
+          "timestamp": "2024-05-02T08:50:00Z",
+          "content_raw": "Company A’s community solar initiative supported 4,300 households last year. Great model for inclusive energy.",
+          "analysis": {
+            "sentiment": 0.76,
+            "esg_category": "Social",
+            "esg_topics": ["Energy access", "Community programs"],
+            "stance": "positive"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "Reddit",
+      "posts": [
+        {
+          "post_id": "rd_A_4411",
+          "author": {
+            "username": "u/energynerd",
+            "karma": 9832
+          },
+          "timestamp": "2024-08-19T19:12:00Z",
+          "content_raw": "Anyone else notice Company A’s cooling system uses more water than last year?",
+          "analysis": {
+            "sentiment": -0.41,
+            "esg_category": "Environment",
+            "esg_topics": ["Water usage"],
+            "stance": "neutral-critical"
+          }
+        }
+      ]
+    }
+  ],
+  "aggregated_analysis": {
+    "sentiment_overall": -0.12,
+    "platform_sentiments": {
+      "Twitter": -0.21,
+      "LinkedIn": 0.76,
+      "Reddit": -0.41
+    },
+    "top_esg_topics": [
+      {"topic": "Emissions", "mentions": 34},
+      {"topic": "Water usage", "mentions": 12},
+      {"topic": "Solar expansion", "mentions": 9}
+    ],
+    "risk_summary": {
+      "environmental": 0.71,
+      "social": 0.14,
+      "governance": 0.09
+    }
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-12"
+  }
+}

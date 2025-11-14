@@ -1,0 +1,93 @@
+{
+  "company": "Company C",
+  "company_id": "CMPC",
+  "year": 2024,
+  "news_sources": [
+    {
+      "source_name": "Nikkei Asia",
+      "source_type": "regional",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "nikkei_C_339",
+          "title": "Worker injuries increase at Company C manufacturing facility",
+          "published_date": "2024-01-29",
+          "content_raw": "Company C reported 4.2% more worker injuries this year in its Osaka plant...",
+          "content_cleaned": "Worker injuries increased at Osaka plant.",
+          "analysis": {
+            "sentiment": -0.65,
+            "esg_category": "Social",
+            "esg_topics": ["Worker safety"],
+            "risk_signals": [{"type": "occupational_incident_rise", "severity": "high"}]
+          },
+          "link_to_report": {
+            "claim_conflict": true,
+            "related_claim": "Workplace safety improvement initiatives",
+            "match_confidence": 0.86
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "Japan Times",
+      "source_type": "national",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "jt_C_902",
+          "title": "Company C expands rare earth recycling program",
+          "published_date": "2024-08-22",
+          "content_raw": "Company C processed over 3,200 tonnes in its e-waste recycling program...",
+          "content_cleaned": "Rare earth recycling increased significantly.",
+          "analysis": {
+            "sentiment": 0.77,
+            "esg_category": "Environment",
+            "esg_topics": ["E-waste recycling", "Circular materials"],
+            "stance": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "source_name": "Electronics Sustainability Monitor",
+      "source_type": "industry",
+      "language": "en",
+      "articles": [
+        {
+          "article_id": "esm_C_541",
+          "title": "Ethical sourcing gaining traction among East Asian manufacturers",
+          "published_date": "2024-10-11",
+          "content_raw": "Company C's ethical sourcing workshop is seen as a model...",
+          "content_cleaned": "Company C recognized for training on responsible sourcing of rare minerals.",
+          "analysis": {
+            "sentiment": 0.64,
+            "esg_category": "Governance",
+            "esg_topics": ["Ethical sourcing", "Responsible minerals"],
+            "stance": "positive-neutral"
+          }
+        }
+      ]
+    }
+  ],
+
+  "aggregated_analysis": {
+    "sentiment_overall": 0.19,
+    "top_esg_topics": [
+      {"topic": "Worker safety", "mentions": 16},
+      {"topic": "E-waste recycling", "mentions": 10},
+      {"topic": "Ethical sourcing", "mentions": 8}
+    ],
+    "risk_summary": {
+      "environmental": 0.31,
+      "social": 0.57,
+      "governance": 0.33
+    }
+  },
+
+  "metadata": {
+    "schema_version": "2.0",
+    "created_at": "2025-01-13"
+  }
+}
