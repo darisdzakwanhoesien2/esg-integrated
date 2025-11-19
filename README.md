@@ -28,7 +28,7 @@ B) /data/frameworks/
 
 
 
-
+3) Generate a class-based ESGDataLoader (cleaner architecture)?
 
 
 
@@ -39,6 +39,73 @@ D) /data/kg_exports with ready-to-import Neo4j nodes.csv + relations.csv
 
 
 3. Generate UNSDG_schema.json as a downloadable file inside the repo layout and add it under /data/frameworks/ (I can produce the file text for you to paste).
+
+A) Add charts
+
+sentiment trendline
+
+ESG topic bar charts
+
+news vs social sentiment comparison
+
+GRI/SDG coverage gauge visualization
+
+B) PyVis interactive KG viewer
+
+Loads networkx_graph.pkl and displays a full ESG knowledge graph.
+
+C) Company comparison dashboard
+
+Side-by-side metrics & sentiment comparison.
+
+D) Add caching + faster loading
+
+Use @st.cache_data for JSON loads.
+
+E) Deploy configuration
+
+Dockerfile + VPS or Streamlit Cloud deployment script.
+
+                    ┌───────────────────────┐
+                    │       Company A       │
+                    └───────┬───────────────┘
+                            │
+                            ▼
+           ┌──────────────────────────────────────┐
+           │      Sustainability Report 2023       │
+           └───────┬──────────┬────────────┬──────┘
+                   │          │            │
+                   ▼          ▼            ▼
+               Metric      Topic        Claim
+                               │            │
+                               ▼            │
+                       SDG_Target ◄─────────┘
+                               │
+                               ▼
+                          SDG_Goal
+
+                    (News 2024)
+                            │
+     ┌───────────── SUPPORTS / CONTRADICTS ─────────────┐
+                            ▼                            │
+                        News Article                     │
+                            │                            │
+                            ▼                            │
+                       ESG Finding  ◄───────LINK─────────┘
+                            ▼
+                       Risk Signal
+
+                         (Social Media 2024)
+                                    │
+                                    ▼
+                                  Post
+                                    │
+                                    ▼
+                               Social Signal
+                                    │
+                                    ▼
+                                  Topic
+
 
 
 esg_dashboard/

@@ -1,0 +1,830 @@
+{
+  "nodes": {
+    "Company B": {
+      "entity": "Company B",
+      "type": "Organization",
+      "domain": "Corporate",
+      "definition": "Fashion",
+      "properties": {
+        "isin": "SE0000099999",
+        "ticker": "CMPB",
+        "website": "https://companyB-fashion.com"
+      }
+    },
+    "Company C": {
+      "entity": "Company C",
+      "type": "Organization",
+      "domain": "Corporate",
+      "definition": "Electronics",
+      "properties": {
+        "isin": "JP0000777777",
+        "ticker": "CMPC",
+        "website": "https://companyC-electronics.jp"
+      }
+    },
+    "Company A": {
+      "entity": "Company A",
+      "type": "Organization",
+      "domain": "Corporate",
+      "definition": "Energy",
+      "properties": {
+        "isin": "FI0000011111",
+        "ticker": "CMPA",
+        "website": "https://companyA-energy.com"
+      }
+    },
+    "Electronic waste": {
+      "entity": "Electronic waste",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Hazardous chemicals": {
+      "entity": "Hazardous chemicals",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Energy efficiency": {
+      "entity": "Energy efficiency",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Worker safety incidents": {
+      "entity": "Worker safety incidents",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Training hours": {
+      "entity": "Training hours",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Supplier audits": {
+      "entity": "Supplier audits",
+      "type": "ESG Topic",
+      "domain": "governance"
+    },
+    "Anti-bribery": {
+      "entity": "Anti-bribery",
+      "type": "ESG Topic",
+      "domain": "governance"
+    },
+    "Company C::e_waste_recycled_tonnes": {
+      "entity": "e_waste_recycled_tonnes",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 3200
+      }
+    },
+    "Company C::hazardous_waste_kg": {
+      "entity": "hazardous_waste_kg",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 82000
+      }
+    },
+    "Company C::injury_rate": {
+      "entity": "injury_rate",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 4.2
+      }
+    },
+    "Company C::training_hours": {
+      "entity": "training_hours",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 150000
+      }
+    },
+    "Textile waste reduction": {
+      "entity": "Textile waste reduction",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Water usage in dyeing": {
+      "entity": "Water usage in dyeing",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Chemical use": {
+      "entity": "Chemical use",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Worker rights": {
+      "entity": "Worker rights",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Factory audits": {
+      "entity": "Factory audits",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Living wage": {
+      "entity": "Living wage",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Supply chain transparency": {
+      "entity": "Supply chain transparency",
+      "type": "ESG Topic",
+      "domain": "governance"
+    },
+    "Company B::textile_waste_tonnes": {
+      "entity": "textile_waste_tonnes",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 4500
+      }
+    },
+    "Company B::water_usage_litres": {
+      "entity": "water_usage_litres",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 150000000
+      }
+    },
+    "Company B::audited_factories": {
+      "entity": "audited_factories",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 52
+      }
+    },
+    "Company B::non_compliant_factories": {
+      "entity": "non_compliant_factories",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 2
+      }
+    },
+    "CO2 emissions": {
+      "entity": "CO2 emissions",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Renewable expansion": {
+      "entity": "Renewable expansion",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Water usage": {
+      "entity": "Water usage",
+      "type": "ESG Topic",
+      "domain": "environment"
+    },
+    "Worker safety": {
+      "entity": "Worker safety",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Community investments": {
+      "entity": "Community investments",
+      "type": "ESG Topic",
+      "domain": "social"
+    },
+    "Anti-corruption training": {
+      "entity": "Anti-corruption training",
+      "type": "ESG Topic",
+      "domain": "governance"
+    },
+    "Board diversity": {
+      "entity": "Board diversity",
+      "type": "ESG Topic",
+      "domain": "governance"
+    },
+    "Company A::co2_scope1_tonnes": {
+      "entity": "co2_scope1_tonnes",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 120000
+      }
+    },
+    "Company A::renewable_energy_percentage": {
+      "entity": "renewable_energy_percentage",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 65
+      }
+    },
+    "Company A::water_usage_m3": {
+      "entity": "water_usage_m3",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 82000
+      }
+    },
+    "Company A::recordable_incidents": {
+      "entity": "recordable_incidents",
+      "type": "Metric",
+      "domain": "Metric",
+      "properties": {
+        "value": 3
+      }
+    },
+    "article::bbc_B_991": {
+      "entity": "Factory audit reveals safety issues at Company B supplier",
+      "type": "NewsArticle",
+      "domain": "international"
+    },
+    "Factory safety": {
+      "entity": "Factory safety",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Labor rights": {
+      "entity": "Labor rights",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::hs_B_551": {
+      "entity": "Muotiyritys Company B vähentää tekstiilijätettä",
+      "type": "NewsArticle",
+      "domain": "national"
+    },
+    "Textile waste": {
+      "entity": "Textile waste",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Circular economy": {
+      "entity": "Circular economy",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::fbr_B_774": {
+      "entity": "Company B launches recycled cotton line",
+      "type": "NewsArticle",
+      "domain": "industry"
+    },
+    "Recycled materials": {
+      "entity": "Recycled materials",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Sustainable fashion": {
+      "entity": "Sustainable fashion",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::nikkei_C_339": {
+      "entity": "Worker injuries increase at Company C manufacturing facility",
+      "type": "NewsArticle",
+      "domain": "regional"
+    },
+    "article::jt_C_902": {
+      "entity": "Company C expands rare earth recycling program",
+      "type": "NewsArticle",
+      "domain": "national"
+    },
+    "E-waste recycling": {
+      "entity": "E-waste recycling",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Circular materials": {
+      "entity": "Circular materials",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::esm_C_541": {
+      "entity": "Ethical sourcing gaining traction among East Asian manufacturers",
+      "type": "NewsArticle",
+      "domain": "industry"
+    },
+    "Ethical sourcing": {
+      "entity": "Ethical sourcing",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Responsible minerals": {
+      "entity": "Responsible minerals",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::reuters_A_991": {
+      "entity": "Regulator questions Company A's emissions reporting",
+      "type": "NewsArticle",
+      "domain": "international"
+    },
+    "Emissions": {
+      "entity": "Emissions",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Regulatory compliance": {
+      "entity": "Regulatory compliance",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::reuters_A_997": {
+      "entity": "Company A expands solar fields in northern Finland",
+      "type": "NewsArticle",
+      "domain": "international"
+    },
+    "Solar expansion": {
+      "entity": "Solar expansion",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Renewable energy": {
+      "entity": "Renewable energy",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "article::yle_A_211": {
+      "entity": "Yritys A:n vesikulutus kasvoi vuoden aikana",
+      "type": "NewsArticle",
+      "domain": "national"
+    },
+    "article::em_A_889": {
+      "entity": "Finland’s energy transition accelerates with Company A investments",
+      "type": "NewsArticle",
+      "domain": "industry"
+    },
+    "Energy transition": {
+      "entity": "Energy transition",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::tw_A_88712": {
+      "entity": "Company A says their Scope 1 emissions dropped, but satellite data shows otherwise.",
+      "type": "SocialPost",
+      "domain": "Twitter"
+    },
+    "GHG discrepancy": {
+      "entity": "GHG discrepancy",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::tw_A_88239": {
+      "entity": "Positive move: Company A expanded solar farms in Finland by 30%.",
+      "type": "SocialPost",
+      "domain": "Twitter"
+    },
+    "post::li_A_3301": {
+      "entity": "Company A’s community solar initiative supported 4,300 households last year. Great model for inclusive energy.",
+      "type": "SocialPost",
+      "domain": "LinkedIn"
+    },
+    "Energy access": {
+      "entity": "Energy access",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Community programs": {
+      "entity": "Community programs",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::rd_A_4411": {
+      "entity": "Anyone else notice Company A’s cooling system uses more water than last year?",
+      "type": "SocialPost",
+      "domain": "Reddit"
+    },
+    "post::rd_C_8811": {
+      "entity": "Anyone working at Company C’s Osaka plant? Injury rates seem to have gone up again.",
+      "type": "SocialPost",
+      "domain": "Reddit"
+    },
+    "Injury rates": {
+      "entity": "Injury rates",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::tw_C_11823": {
+      "entity": "Company C delivered 3,200 tonnes of e-waste recycling this year. Impressive progress.",
+      "type": "SocialPost",
+      "domain": "Twitter"
+    },
+    "post::li_C_5541": {
+      "entity": "Company C hosted a workshop on ethical sourcing of rare earth minerals.",
+      "type": "SocialPost",
+      "domain": "LinkedIn"
+    },
+    "Responsibility": {
+      "entity": "Responsibility",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::tw_B_19002": {
+      "entity": "Leak: Two of Company B’s supplier factories failed audits in Vietnam. Transparency is still missing.",
+      "type": "SocialPost",
+      "domain": "Twitter"
+    },
+    "post::tw_B_19033": {
+      "entity": "Company B reduced textile waste by 15% via recycling initiatives. A solid step toward circularity.",
+      "type": "SocialPost",
+      "domain": "Twitter"
+    },
+    "Circular fashion": {
+      "entity": "Circular fashion",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "post::ig_B_09841": {
+      "entity": "Behind the scenes of Company B's new eco-factory. Looks promising!",
+      "type": "SocialPost",
+      "domain": "Instagram"
+    },
+    "Eco-factory": {
+      "entity": "Eco-factory",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    },
+    "Sustainable design": {
+      "entity": "Sustainable design",
+      "type": "ESG Topic",
+      "domain": "Environment"
+    }
+  },
+  "edges": [
+    {
+      "source": "Company C",
+      "target": "Electronic waste",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Hazardous chemicals",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Energy efficiency",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Worker safety incidents",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Training hours",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Supplier audits",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Anti-bribery",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company C",
+      "target": "Company C::e_waste_recycled_tonnes",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company C",
+      "target": "Company C::hazardous_waste_kg",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company C",
+      "target": "Company C::injury_rate",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company C",
+      "target": "Company C::training_hours",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company B",
+      "target": "Textile waste reduction",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Water usage in dyeing",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Chemical use",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Worker rights",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Factory audits",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Living wage",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Supply chain transparency",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company B",
+      "target": "Company B::textile_waste_tonnes",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company B",
+      "target": "Company B::water_usage_litres",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company B",
+      "target": "Company B::audited_factories",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company B",
+      "target": "Company B::non_compliant_factories",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company A",
+      "target": "CO2 emissions",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Renewable expansion",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Water usage",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Worker safety",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Community investments",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Anti-corruption training",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Board diversity",
+      "type": "reports_on"
+    },
+    {
+      "source": "Company A",
+      "target": "Company A::co2_scope1_tonnes",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company A",
+      "target": "Company A::renewable_energy_percentage",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company A",
+      "target": "Company A::water_usage_m3",
+      "type": "reports_metric"
+    },
+    {
+      "source": "Company A",
+      "target": "Company A::recordable_incidents",
+      "type": "reports_metric"
+    },
+    {
+      "source": "article::bbc_B_991",
+      "target": "Factory safety",
+      "type": "mentions"
+    },
+    {
+      "source": "article::bbc_B_991",
+      "target": "Labor rights",
+      "type": "mentions"
+    },
+    {
+      "source": "article::bbc_B_991",
+      "target": "Company B",
+      "type": "mentions_company"
+    },
+    {
+      "source": "article::hs_B_551",
+      "target": "Textile waste",
+      "type": "mentions"
+    },
+    {
+      "source": "article::hs_B_551",
+      "target": "Circular economy",
+      "type": "mentions"
+    },
+    {
+      "source": "article::hs_B_551",
+      "target": "Company B",
+      "type": "mentions_company"
+    },
+    {
+      "source": "article::fbr_B_774",
+      "target": "Recycled materials",
+      "type": "mentions"
+    },
+    {
+      "source": "article::fbr_B_774",
+      "target": "Sustainable fashion",
+      "type": "mentions"
+    },
+    {
+      "source": "article::nikkei_C_339",
+      "target": "Worker safety",
+      "type": "mentions"
+    },
+    {
+      "source": "article::jt_C_902",
+      "target": "E-waste recycling",
+      "type": "mentions"
+    },
+    {
+      "source": "article::jt_C_902",
+      "target": "Circular materials",
+      "type": "mentions"
+    },
+    {
+      "source": "article::esm_C_541",
+      "target": "Ethical sourcing",
+      "type": "mentions"
+    },
+    {
+      "source": "article::esm_C_541",
+      "target": "Responsible minerals",
+      "type": "mentions"
+    },
+    {
+      "source": "article::esm_C_541",
+      "target": "Company C",
+      "type": "mentions_company"
+    },
+    {
+      "source": "article::reuters_A_991",
+      "target": "Emissions",
+      "type": "mentions"
+    },
+    {
+      "source": "article::reuters_A_991",
+      "target": "Regulatory compliance",
+      "type": "mentions"
+    },
+    {
+      "source": "article::reuters_A_991",
+      "target": "Company A",
+      "type": "mentions_company"
+    },
+    {
+      "source": "article::reuters_A_997",
+      "target": "Solar expansion",
+      "type": "mentions"
+    },
+    {
+      "source": "article::reuters_A_997",
+      "target": "Renewable energy",
+      "type": "mentions"
+    },
+    {
+      "source": "article::yle_A_211",
+      "target": "Water usage",
+      "type": "mentions"
+    },
+    {
+      "source": "article::yle_A_211",
+      "target": "Company A",
+      "type": "mentions_company"
+    },
+    {
+      "source": "article::em_A_889",
+      "target": "Energy transition",
+      "type": "mentions"
+    },
+    {
+      "source": "article::em_A_889",
+      "target": "Renewable energy",
+      "type": "mentions"
+    },
+    {
+      "source": "article::em_A_889",
+      "target": "Company A",
+      "type": "mentions_company"
+    },
+    {
+      "source": "post::tw_A_88712",
+      "target": "Emissions",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_A_88712",
+      "target": "GHG discrepancy",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_A_88239",
+      "target": "Renewable energy",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_A_88239",
+      "target": "Solar expansion",
+      "type": "mentions"
+    },
+    {
+      "source": "post::li_A_3301",
+      "target": "Energy access",
+      "type": "mentions"
+    },
+    {
+      "source": "post::li_A_3301",
+      "target": "Community programs",
+      "type": "mentions"
+    },
+    {
+      "source": "post::rd_A_4411",
+      "target": "Water usage",
+      "type": "mentions"
+    },
+    {
+      "source": "post::rd_C_8811",
+      "target": "Worker safety",
+      "type": "mentions"
+    },
+    {
+      "source": "post::rd_C_8811",
+      "target": "Injury rates",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_C_11823",
+      "target": "E-waste recycling",
+      "type": "mentions"
+    },
+    {
+      "source": "post::li_C_5541",
+      "target": "Ethical sourcing",
+      "type": "mentions"
+    },
+    {
+      "source": "post::li_C_5541",
+      "target": "Responsibility",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_B_19002",
+      "target": "Factory audits",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_B_19002",
+      "target": "Labor rights",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_B_19033",
+      "target": "Textile waste",
+      "type": "mentions"
+    },
+    {
+      "source": "post::tw_B_19033",
+      "target": "Circular fashion",
+      "type": "mentions"
+    },
+    {
+      "source": "post::ig_B_09841",
+      "target": "Eco-factory",
+      "type": "mentions"
+    },
+    {
+      "source": "post::ig_B_09841",
+      "target": "Sustainable design",
+      "type": "mentions"
+    }
+  ]
+}
