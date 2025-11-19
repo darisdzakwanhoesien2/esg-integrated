@@ -1,0 +1,27 @@
+streamlit==1.35.0
+networkx==3.2.1
+pyvis==0.3.2
+pandas==2.2.2
+numpy==1.26.4
+plotly==5.22.0
+python-dotenv==1.0.1
+
+# JSON + YAML
+pyyaml==6.0.1
+
+# Optional NLP / text cleaning (your graph uses content_cleaned)
+nltk==3.8.1
+regex==2024.5.15
+
+# Utilities
+tqdm==4.66.4
+
+# If you ever export graph or embeddings
+scikit-learn==1.4.2
+
+# For flashcards / file IO safety
+python-dateutil==2.9.0.post0
+
+# Optional (but recommended)
+beautifulsoup4==4.12.3   # If you parse HTML text
+requests==2.32.2         # API calls
